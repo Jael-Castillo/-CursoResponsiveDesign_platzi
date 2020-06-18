@@ -151,17 +151,15 @@ h1 strong
     color: white;
 } 
 .hero{
-    height: 300px; /*300*/
+    height: 400px;
     background-image:url('/images/hero.jpg');
     background-color: #CD5C5C;
-    background-size: cover; /*700px 500px */
+    background-size: cover;
     background-repeat: no-repeat;
-    /* background-position-x: right; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: center;
-    /* flex-direction: column;   */
 }
 
 
@@ -215,7 +213,6 @@ h1 strong
     margin-top: 0;
 }
 
-/* .project-course,  */
 .about-us-location, 
 .about-us-url
 {
@@ -241,7 +238,7 @@ h1 strong
 }
 
 
-/*-----Event/PRODUCTS---*/
+/*-----PRODUCTS---*/
 .product-list
 {
     display: flex;
@@ -311,14 +308,7 @@ h1 strong
     justify-content: space-between;
     flex-wrap: wrap;
 }
-/* 
-.social
-{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-} */
+
 
 .form-email input
 {
