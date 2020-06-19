@@ -46,12 +46,11 @@ body
     height: 90px;
 }
 /* PRIMER SELECTOR DECENTENDE */
-/*----NAVEGATION----*/
+/*----Navegation----*/
 header
 {
     background-color:white;
     color:#CD5C5C;
-    /* border-bottom: 1px #CD5C5C solid; ¿?*/
     height: 70px;
     display: flex;
     justify-content: space-between;
@@ -96,7 +95,7 @@ ol, ul
     padding: 0 10px 10px 10px;
 }
 
-/*---- TITlES-----*/
+/*---- Titles-----*/
 h1, h2, h3, h4, h5, h6
 {
     font-family: 'Fjalla One', sans-serif;
@@ -107,13 +106,10 @@ h1
     line-height: 1.5em;
     letter-spacing: -.2px;
     color: #f4fbff;
-    text-shadow: 2px 2px 15px black;/*sombreado*/
-    /* text-transform: uppercase;
-    text-decoration:underline;*/
+    text-shadow: 2px 2px 15px black;
     margin: auto;
     text-align: center;
     transition: all 0.5s;
-    /* border: 2px solid red; */
 }
 h1 strong
 {
@@ -163,7 +159,7 @@ h1 strong
 }
 
 
-/*----ABOUT US----*/
+/*----About Us----*/
 .about-us
 {
     background: #fafafa;
@@ -203,7 +199,7 @@ h1 strong
 
 .about-us-details
 {
-    width: 50%;/*500px*/
+    width: 50%;
 }
 
 .about-us-title
@@ -228,13 +224,12 @@ h1 strong
 
 .about-us-imageContainer
 {
-    width: 50%;/*500px*/
+    width: 50%;
 }
 .about-us-imageContainer img
 {
     border-radius: 8px;
     max-width: 100%;
-    /* width: inherit; */
 }
 
 
@@ -243,7 +238,6 @@ h1 strong
 {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-evenly; */
 }
 
 .product
@@ -251,7 +245,7 @@ h1 strong
     /* border: 1px solid #CD5C5C; */
     margin: 1%;
     width: 48%;
-    flex-shrink: 0;/*para que ocupen su tamaño designado*/
+    flex-shrink: 0;/*flex shrink ayuda a ocupar su tamaño designado*/
     border-radius: 10px;
     overflow: hidden;
     background:#f4fbff;
@@ -284,14 +278,14 @@ h1 strong
 
 .product-url
 {
-    border:1px solid; /*usa el mismo color del texto*/
+    border:1px solid; /*nota: usa el mismo color del texto*/
     border-radius: 5px;
     padding: 5px 20px;
     text-decoration: none;
     color: #CD5C5C;
 
  }
-/* ----CONTACT----*/
+/* ----Contact----*/
 .form-email h3
 {
     font-family: 'Source Sans Pro', sans-serif;
@@ -328,10 +322,9 @@ h1 strong
     display: block;
     background: transparent;
     color: white;
-    /* border: 1px solid white; */
     border-radius: 5px;
     width: 100px;
-    margin-top: 10px;/*5px 0 30px*/
+    margin-top: 10px;
     padding: 10px 0;
 }
 
@@ -373,7 +366,6 @@ h1 strong
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding: 0 10px 10px 10px;espaciado */
     flex-wrap: wrap;
   }
   
@@ -407,6 +399,7 @@ h1 strong
     height: 40px;
     border-radius: 50%;
     background-color: #CD5C5C;
+    display: block;
 }
 /*--------MEDIA QUERIS--------*/
 
