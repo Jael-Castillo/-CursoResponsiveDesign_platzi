@@ -437,9 +437,26 @@ h1 strong
     }
     .header a {
         justify-content: center;
+        color: white;
+        height: 40px;
+        font-size: 2em;
+        letter-spacing: -.5px;
+        margin-bottom: .5em;
     }
     .header .logo{
         text-align: center;/*para centrar imagenes text aling*/
+    }
+    .menu{
+        background: rgba(205, 92, 92 ,.9);
+        position: fixed;
+        z-index: 3;
+        top:0;
+        left: 100vw;/*esconder menu*/
+        bottom: 0;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     /*------Hero------*/
