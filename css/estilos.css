@@ -451,14 +451,18 @@ h1 strong
         position: fixed;
         z-index: 3;
         top:0;
-        left: 100vw;/*esconder menu*/
+        left: -100vw;/*esconder menu*/
         bottom: 0;
         width: 100vw;
         display: flex;
         align-items: center;
         justify-content: center;
+        transition: .3s;
     }
-
+    .menu.is-active /*uso de dos calses*/
+    {
+        left:0;
+    }
     /*------Hero------*/
     .hero{
         height: auto;
