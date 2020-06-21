@@ -164,13 +164,21 @@
     </footer>
     <script>
         const menu = document.querySelector('.menu')
-        // console.log(menu)
+        const ipad = window.matchMedia('screen and (max-width:767px)')
         const burgerButton = document.querySelector('#burger-menu')
-        // console.log(burgerButton)
-        
 
-        burgerButton.addEventListener('click',hideShow)
+        //función para invocar otra función para activar o reactivar linea 167
+        ipad.addListener(validation)
 
+        function validation(event){
+            if (event.matches)
+            {
+                burgerButton.addEventListener('click',hideShow)
+            }else{
+                burgerButton.removeEventListener('click',hideShow)
+            }
+
+        }
         function hideShow(){
             
             if(menu.classList.contains('is-active'))
