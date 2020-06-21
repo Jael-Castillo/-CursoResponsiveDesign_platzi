@@ -148,7 +148,7 @@ h1 strong
 } 
 .hero{
     height: 400px;
-    background-image:url('/images/hero.jpg');
+    background-image:url('../images/hero.jpg');
     background-color: #CD5C5C;
     background-size: cover;
     background-repeat: no-repeat;
