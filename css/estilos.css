@@ -509,14 +509,17 @@ h1 strong
         margin: .3em 0;
     }
     /*-------Titles------*/
-    .title-about-us,
-    .title-product{
+    .title-about-us{
         font-size: 1.5em;
         margin: .5em 0;
     }
+    .title-product{
+        font-size: 1.5em;
+        margin:.5em 0 .5em 1em;
+    }
     .product-title
     {
-        font-size:1em;
+        font-size:1.5em;
     }
     /* -----Products----- */
     .product{
