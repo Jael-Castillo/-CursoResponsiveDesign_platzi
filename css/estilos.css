@@ -284,7 +284,12 @@ h1 strong
     text-decoration: none;
     color: #CD5C5C;
 
- }
+}
+.product-url:hover
+{
+    background-color:#CD5C5C;
+    color: white;
+} 
 /* ----Contact----*/
 .form-email h3
 {
