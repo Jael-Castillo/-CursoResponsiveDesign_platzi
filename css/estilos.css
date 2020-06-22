@@ -94,6 +94,11 @@ ol, ul
     centrarlos ahora que ya heredaron una altura determinada. */
     padding: 0 10px 10px 10px;
 }
+.header a:hover
+{
+    background-color:#CD5C5C;
+    color: white;
+}
 
 /*---- Titles-----*/
 h1, h2, h3, h4, h5, h6
@@ -242,7 +247,6 @@ h1 strong
 
 .product
 {
-    /* border: 1px solid #CD5C5C; */
     margin: 1%;
     width: 48%;
     flex-shrink: 0;/*flex shrink ayuda a ocupar su tamaño designado*/
