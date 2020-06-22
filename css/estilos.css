@@ -90,7 +90,7 @@ ol, ul
     height: inherit;
     display: flex;
     align-items: center;
-    /* Añade display flex a los elementos anchor <a> para poder 
+    /* Añade display flex a los elementos <a> para poder 
     centrarlos ahora que ya heredaron una altura determinada. */
     padding: 0 10px 10px 10px;
 }
