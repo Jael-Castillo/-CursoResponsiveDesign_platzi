@@ -1,4 +1,4 @@
-# Accessories Castillo ![completion](https://img.shields.io/badge/completion-100%25-blue) 💎  
+# 💎 Accessories Castillo ![completion](https://img.shields.io/badge/completion-100%25-blue) 
 
 >This is a website created to mobile, tablet and laptop version  in course [Responsive Design](https://platzi.com/clases/responsive-design/) by [Platzi](https://platzi.com/) to Accessories Castillo shop. 
 
@@ -6,7 +6,7 @@
 
 >[DEMO](https://accastillo.netlify.app/ "ACCESORIES castillo").
 
-Builded with ⚒
+⚒ Builded with
 - 
 - CSS
     -  media queries
