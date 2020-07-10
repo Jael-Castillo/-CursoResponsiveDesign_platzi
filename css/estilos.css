@@ -301,6 +301,10 @@ h1 strong
     font-size: 30px;
     margin: 10px;
 }
+.form-email a{
+    text-decoration: none;
+    color: white;
+}
 .contact
 {
     background:#EAA1A1;
