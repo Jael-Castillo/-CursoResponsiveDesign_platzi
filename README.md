@@ -1,5 +1,14 @@
-# AC Castillo mobile, tablet and laptop version
+# Accessories Castillo 💎  
 
-_This is a website with CSS (made with media queries) and HTML created in course Responsive Design by Platzi._
+>This is a website created to mobile, tablet and laptop version  in course [Responsive Design](https://platzi.com/clases/responsive-design/) by [Platzi](https://platzi.com/) to Accessories Castillo shop. 
 
-**Copyright © All rights reserved**
+![accastillo_gif](/images/accastillo.gif)
+
+>[DEMO](https://accastillo.netlify.app/ "ACCESORIES castillo").
+
+Builded with ⚒
+- 
+- CSS
+    -  media queries
+- HTML
+- Javascritp
